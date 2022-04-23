@@ -1,0 +1,12 @@
+
+for creating a pickle file 
+import pickle
+file = open("random_forest_resgression_model.pkl",'wb')
+pickle.dump(random_rf,file)
+
+
+
+
+For generating requirments.txt
+pip list --format=freeze > requirements.txt
+
